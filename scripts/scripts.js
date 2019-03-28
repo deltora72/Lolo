@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //
 // console.log(m, n);
 
-axios.get('https://flipboard.com/@raimoseero/feed-nii8kd0sz.rss')
+axios.get('https://flipboard.com/@raimoseero/feed-nii8kd0sz.rss', { crossdomain: true })
   .then(function (response) {
     // handle success
     console.log(response);
